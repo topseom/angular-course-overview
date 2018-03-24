@@ -1,0 +1,89 @@
+<!-- <div fxLayout="row" fxLayoutAlign="center">
+    <div fxLayout="column"  style="background:red" fxFlex="80">
+      <div fxFlex>Hello</div>
+      <div fxFlex>World</div>
+    </div>
+</div> -->
+
+<!-- <mat-radio-group>
+    <mat-radio-button [value]="'item1'">
+       Item1
+    </mat-radio-button>
+    <mat-radio-button [value]="'item2'">
+       Item2
+    </mat-radio-button>
+    <mat-radio-button [value]="'item3'">
+       Item3
+    </mat-radio-button>
+ </mat-radio-group> -->
+
+ <!-- <mat-radio-group [(ngModel)]="variable1">
+    <mat-radio-button [value]="'item1'">
+        Item1
+    </mat-radio-button>
+  </mat-radio-group>
+  <br>
+ {{ variable1 }} -->
+
+ <!-- <mat-list>
+   <mat-list-item>
+     <mat-form-field>
+       <input placeholder="Username" type="text" matInput >
+     </mat-form-field>
+   </mat-list-item>
+   <mat-list-item>
+      <mat-form-field>
+        <input placeholder="Password" type="password" matInput >
+      </mat-form-field>
+    </mat-list-item>
+    <mat-list-item>
+      <button type="submit" mat-raised-button color="primary">Submit</button>
+    </mat-list-item>
+ </mat-list> -->
+ 
+ <!-- <mat-toolbar color="primary">
+   <button mat-button><h3>Toolbar</h3></button>
+   <button mat-button>menu1</button>
+   <button mat-button>menu2</button>
+ </mat-toolbar>
+
+ <form [formGroup]="form" (ngSubmit)="onSubmit()" #f="ngForm">
+    <mat-list>
+      <mat-list-item>
+        <mat-form-field [floatLabel]="'never'">
+          <input formControlName="email"  placeholder="Email" matInput type="email">	
+          <mat-error>Email is invalid</mat-error>
+        </mat-form-field>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-form-field [floatLabel]="'never'">
+           <input formControlName="password"  placeholder="password" matInput type="password">
+           <mat-error>Password is invalid</mat-error>
+        </mat-form-field>
+      </mat-list-item>     
+      <mat-list-item>
+         <button type="submit" mat-raised-button color="primary" >Sign In</button>
+      </mat-list-item>
+      <mat-list-item>
+          <button (click)="resetForm($event,f)" mat-raised-button color="warn">Clear</button>
+      </mat-list-item>
+    </mat-list>
+ </form> -->
+
+ <ul>
+   <li><a routerLink="">Home</a></li>
+   <li><a routerLink="page1">Page1</a></li>
+   <li><a routerLink="page1/subpage1">Subpage1</a></li>
+   <li><a routerLink="page2">Page2</a></li>
+   <li><a routerLink="page3/1">Page3</a></li>
+   <li><a routerLink="lazyload">LazyloadPage</a></li>
+ </ul>
+ <router-outlet></router-outlet>
+ 
+ 
+ 
+ 
+
+<!--<button (click)="onClick()" mat-raised-button color="primary">{{ variable1 }}</button>-->
+
+ 
